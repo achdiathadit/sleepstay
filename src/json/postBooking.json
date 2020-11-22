@@ -1,0 +1,13 @@
+{
+  "duration": "2",
+  "price": "240",
+  "bookingDateStart": "new Date()",
+  "bookingDateEnd": "new Date()",
+  "firstName": "Omar",
+  "lastName": "Levin",
+  "emailAddress": "omar.levin@gmail.com",
+  "phoneNumber": "6282188776655",
+  "accountHolder": "Omar Levin",
+  "bankFrom": "HSBC",
+  "proofPayment": "FileData()"
+}

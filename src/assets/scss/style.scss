@@ -1,0 +1,357 @@
+/*!
+ * Bootstrap v4.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import "colorVariables";
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "container-grid";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
+
+// Import Google fonts
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+// Custom font weight
+.font-weight-medium {
+  font-weight: 500;
+}
+.font-weight-semibold {
+  font-weight: 600;
+}
+// ---
+
+// Custom header
+header {
+  background-color: $gray-100;
+  // border-top: 1px solid $gray-200;
+  width: 100%;
+  position: relative;
+  margin-bottom: 70px;
+
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none;
+  }
+
+  .navbar {
+    height: 80px;
+    padding: 8px 0px;
+
+    ul.navbar-nav {
+      li.nav-item {
+        &.active {
+          a.nav-link {
+            color: $white;
+            background-color: $gray-400;
+          }
+        }
+
+        a {
+          &.nav-link.register {
+            color: $white;
+            background-color: $primary;
+            &:hover {
+              color: $white;
+              background-color: darken($primary, 10%);
+            }
+            &:focus {
+              color: $white;
+              background-color: $gray-400;
+            }
+          }
+
+          &.nav-link {
+            color: $info;
+            padding: 8px 16px;
+            margin: 0 2px;
+            border-radius: 8px;
+            transition: 0.1s ease-in-out;
+            &:hover {
+              color: #04344e;
+              background-color: $gray-200;
+            }
+            &:focus {
+              color: $white;
+              background-color: $gray-400;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// ---
+
+// Custom margin setting
+section {
+  margin-bottom: 70px;
+}
+
+.section-lg {
+  margin-bottom: 100px;
+}
+
+.h-line {
+  width: 100%;
+  border-top: 1px solid $gray-200;
+  height: 1px;
+  margin-bottom: 70px;
+}
+
+.hero {
+  height: 388px;
+}
+
+.btn-cta {
+  &:focus {
+    transform: translateY(3px);
+    &.btn-shadow {
+      box-shadow: 0px 2px 1px rgba(#433a99, 1);
+      transition: 0.1s linear;
+    }
+  }
+}
+
+.statistic {
+  margin-right: 20px;
+}
+
+.hero-pic {
+  margin-left: 50px;
+}
+// ---
+
+.img-cover {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.img-contain {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  height: 100%;
+
+  .tag {
+    z-index: 3;
+    background-color: $danger;
+    padding: 0.25rem 1.25rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    min-height: 40px;
+    border-radius: 0 $border-radius-lg;
+  }
+
+  .img-wrapper {
+    height: 100%;
+    margin-bottom: 0;
+    overflow: hidden;
+  }
+
+  .meta-wrapper {
+    margin-top: 1rem;
+    h5 {
+      font-size: 1.125rem;
+      margin-bottom: 2px;
+    }
+    span {
+      font-size: 0.875rem;
+    }
+  }
+
+  &.card-featured {
+    border-radius: $border-radius-lg;
+    border-width: 0;
+    overflow: hidden;
+    cursor: pointer;
+    height: 100%;
+    &:after {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transform: scale(1.1);
+      transition: 0.5s transform ease-in-out;
+      z-index: 2;
+      @include gradient-y(rgba($black, 0), rgba($black, 0.9), 50%, 100%);
+    }
+
+    .img-cover {
+      z-index: 1;
+      margin: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transform: scale(1);
+      transition: 0.25s transform ease-in-out;
+    }
+
+    .meta-wrapper {
+      z-index: 4;
+      color: $white;
+      padding: 20px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      transform: translateY(0);
+      transition: 0.3s transform ease-in-out;
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+    }
+
+    &:hover {
+      .meta-wrapper {
+        transform: translateY(-5px);
+      }
+      &:after {
+        transform: scale(1.05);
+      }
+      .img-cover {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  &.card-categories {
+    border-width: 0;
+    overflow: hidden;
+    cursor: pointer;
+    height: 100%;
+
+    .img-wrapper {
+      border-radius: $border-radius-lg;
+    }
+
+    .img-cover {
+      z-index: 1;
+      margin: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transform: scale(1);
+      transition: 0.25s transform ease-in-out;
+    }
+
+    .meta-wrapper {
+      padding-bottom: 3px;
+      transform: translateY(0);
+      transition: 0.3s transform ease-in-out;
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+    }
+
+    &:hover {
+      .meta-wrapper {
+        transform: translateY(-5px);
+      }
+      &:after {
+        transform: scale(1.05);
+      }
+      .img-cover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
+.testimonial-hero,
+.testimonial-hero img {
+  width: 530px;
+  height: 363px;
+}
+
+.testimonial-content {
+  margin: 20px 0 10px 0;
+}
+
+.btn-story {
+  margin-top: 30px;
+  &:focus {
+    transform: translateY(3px);
+    &.btn-shadow {
+      box-shadow: 0px 2px 1px rgba(#433a99, 1);
+      transition: 0.1s linear;
+    }
+  }
+}
+
+// Custom footer
+footer {
+  background-color: $gray-100;
+  // border-top: 1px solid $gray-200;
+  padding-top: 50px;
+  width: 100%;
+  min-height: 308px;
+
+  .list-group-item {
+    background-color: transparent;
+    padding: 8px 0;
+    border: 0;
+    a,
+    span {
+      color: $dark;
+    }
+    a {
+      @include hover-focus {
+        color: $gray-800;
+      }
+    }
+  }
+  .copyrights {
+    margin-top: 50px;
+    font-weight: 300;
+    color: $dark;
+  }
+}
+// ---

@@ -1,0 +1,145 @@
+{
+  "_id": "itemDetails",
+  "name": "Little Mermaid House",
+  "type": "House",
+  "imageUrl": [
+    {
+      "_id": "itemDetails",
+      "url": "/images/img/img-itemdetails-1.png"
+    },
+    {
+      "_id": "itemDetails",
+      "url": "/images/img/img-itemdetails-2.png"
+    },
+    {
+      "_id": "itemDetails",
+      "url": "/images/img/img-itemdetails-3.png"
+    }
+  ],
+  "country": "Indonesia",
+  "city": "Bogor",
+  "price": "120",
+  "unit": "night",
+  "isPopular": true,
+  "hasBackyard": true,
+  "description": "<p>Welcome to the little yet cozy Little Mermaid, located in a culinary center in the cool city of Bogor and only 5 minutes from the train station. You will get complete facilities for one family, from a soft bed, warm shower, spacious kitchen, to a superfast wifi. There are many activities that can be done around, such as visit the largest garden in the city, culinary tours, or shopping. You can also take your kids to fun tours such as playpark and zoology museum. Nature lovers should try hiking in the national park.</p>",
+  "features": [
+    {
+      "_id": "amenities",
+      "qty": "2",
+      "name": "bedroom",
+      "imageUrl": "/images/icon/icon-bedroom.svg"
+    },
+    {
+      "_id": "amenities",
+      "qty": "1",
+      "name": "bathroom",
+      "imageUrl": "/images/icon/icon-bathroom.svg"
+    },
+    {
+      "_id": "amenities",
+      "qty": "1",
+      "name": "Living room",
+      "imageUrl": "/images/icon/icon-livingroom.svg"
+    },
+    {
+      "_id": "amenities",
+      "qty": "1",
+      "name": "Dining room",
+      "imageUrl": "/images/icon/icon-diningroom.svg"
+    },
+    {
+      "_id": "amenities",
+      "qty": "1",
+      "name": "Kitchen",
+      "imageUrl": "/images/icon/icon-kitchen.svg"
+    },
+    {
+      "_id": "amenities",
+      "qty": "1",
+      "name": "Free Wifi",
+      "imageUrl": "/images/icon/icon-wifi.svg"
+    },
+    {
+      "_id": "amenities",
+      "qty": "1",
+      "name": "Cable TV",
+      "imageUrl": "/images/icon/icon-tv.svg"
+    },
+    {
+      "_id": "amenities",
+      "qty": "1",
+      "name": "Air conditioning",
+      "imageUrl": "/images/icon/icon-ac.svg"
+    }
+  ],
+  "activities": [
+    {
+      "_id": "thingsToDo",
+      "name": "Botanical Garden",
+      "type": "Nature",
+      "imageUrl": "/images/img/img-thingstodo-1.png"
+    },
+    {
+      "_id": "thingsToDo",
+      "name": "Botani Square",
+      "type": "Shopping",
+      "imageUrl": "/images/img/img-thingstodo-2.png"
+    },
+    {
+      "_id": "thingsToDo",
+      "name": "Zoology Museum",
+      "type": "Education",
+      "imageUrl": "/images/img/img-thingstodo-3.png"
+    },
+    {
+      "_id": "thingsToDo",
+      "name": "Halimun Salak National Park",
+      "type": "Nature",
+      "imageUrl": "/images/img/img-thingstodo-4.png"
+    }
+  ],
+  "testimonials": [
+    {
+      "_id": "reviews",
+      "imageUrl": "/images/img/img-review-1.png",
+      "customerName": "Wilson Dias",
+      "customerVisit": "Nature",
+      "content": "A comfortable place to gather with family. Many tourist sites that can be reached."
+    },
+    {
+      "_id": "reviews",
+      "imageUrl": "/images/img/img-review-2.png",
+      "customerName": "Ann Korsgaard",
+      "customerVisit": "December 2019",
+      "content": "This was a wonderful place for us to spend a couple days. The kitchen has everything you need. The beds are very comfortable and rooms are spacious."
+    },
+    {
+      "_id": "reviews",
+      "imageUrl": "/images/img/img-review-3.png",
+      "customerName": "Brandon Stanton",
+      "customerVisit": "November 2019",
+      "content": "The atmosphere in this place makes me feel at home. The owner is very friendly too!"
+    },
+    {
+      "_id": "reviews",
+      "imageUrl": "/images/img/img-review-4.png",
+      "customerName": "Lindsey Kenter",
+      "customerVisit": "August 2019",
+      "content": "The stay was great! The host was definitely a super host. Very quick to respond and helped with everything. Very positive experience."
+    },
+    {
+      "_id": "reviews",
+      "imageUrl": "/images/img/img-review-5.png",
+      "customerName": "Craig Westervelt",
+      "customerVisit": "July 2019",
+      "content": "I enjoyed this place with my friends. I hope I can come here again soon!"
+    },
+    {
+      "_id": "reviews",
+      "imageUrl": "/images/img/img-review-6.png",
+      "customerName": "Kianna George",
+      "customerVisit": "May 2019",
+      "content": "This place is beautiful and clean. Well worth the stay!"
+    },
+}

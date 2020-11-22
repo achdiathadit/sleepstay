@@ -1,0 +1,184 @@
+{
+  "hero": {
+    "travelers": 80204,
+    "touristSpots": 962,
+    "cities": 506
+  },
+  "mostPopular": [
+    {
+      "_id": "itemList",
+      "name": "Little Mermaid House",
+      "type": "House",
+      "imageUrl": "/images/img/img-mostpopular-1.png",
+      "country": "Indonesia",
+      "city": "Bogor",
+      "price": "120",
+      "unit": "night"
+    },
+    {
+      "_id": "itemList",
+      "name": "The Ridge House",
+      "type": "House",
+      "imageUrl": "/images/img/img-mostpopular-2.png",
+      "country": "Indonesia",
+      "city": "Lombok",
+      "price": "230",
+      "unit": "night"
+    },
+    {
+      "_id": "itemList",
+      "name": "The Woods Apartment",
+      "type": "Apartment",
+      "imageUrl": "/images/img/img-mostpopular-3.png",
+      "country": "Singapore",
+      "city": "Singapore",
+      "price": "82",
+      "unit": "night"
+    },
+    {
+      "_id": "itemList",
+      "name": "Mini Me Apartment",
+      "type": "Apartment",
+      "imageUrl": "/images/img/img-mostpopular-4.png",
+      "country": "Malaysia ",
+      "city": "Kuala Lumpur",
+      "price": "75",
+      "unit": "night"
+    },
+    {
+      "_id": "itemList",
+      "name": "Winterstone House",
+      "type": "House",
+      "imageUrl": "/images/img/img-mostpopular-5.png",
+      "country": "Indonesia",
+      "city": "Bali",
+      "price": "280",
+      "unit": "night"
+    }
+  ],
+  "categories": [
+    {
+      "_id": "itemList",
+      "name": "House with backyard",
+      "items": [
+        {
+          "_id": "itemList",
+          "name": "Autumn Harbor",
+          "imageUrl": "/images/img/img-house-1.png",
+          "country": "Thailand",
+          "city": "Bangkok",
+          "isPopular": false
+        },
+        {
+          "_id": "itemList",
+          "name": "Playa Bianca",
+          "imageUrl": "/images/img/img-house-2.png",
+          "country": "Indonesia",
+          "city": "Bandung",
+          "isPopular": false
+        },
+        {
+          "_id": "itemList",
+          "name": "Mild Spring",
+          "imageUrl": "/images/img/img-house-3.png",
+          "country": "Indonesia",
+          "city": "Jogja",
+          "isPopular": false
+        },
+        {
+          "_id": "itemList",
+          "name": "Leafy Terrace",
+          "imageUrl": "/images/img/img-house-4.png",
+          "country": "Indonesia",
+          "city": "Wakatobi",
+          "isPopular": true
+        }
+      ]
+    },
+    {
+      "_id": "itemList",
+      "name": "Hotel with living room",
+      "items": [
+        {
+          "_id": "itemList",
+          "name": "Blue Pearl",
+          "imageUrl": "/images/img/img-hotel-1.png",
+          "country": "Indonesia",
+          "city": "Lombok",
+          "isPopular": true
+        },
+        {
+          "_id": "itemList",
+          "name": "American Corner",
+          "imageUrl": "/images/img/img-hotel-2.png",
+          "country": "Indonesia",
+          "city": "Medan",
+          "isPopular": false
+        },
+        {
+          "_id": "itemList",
+          "name": "Regal Orchards",
+          "imageUrl": "/images/img/img-hotel-3.png",
+          "country": "Singapore",
+          "city": "Singapore",
+          "isPopular": false
+        },
+        {
+          "_id": "itemList",
+          "name": "Pine Woodlands",
+          "imageUrl": "/images/img/img-hotel-4.png",
+          "country": "Indonesia",
+          "city": "Jakarta",
+          "isPopular": false
+        }
+      ]
+    },
+    {
+      "_id": "itemList",
+      "name": "Apartment with kitchen",
+      "items": [
+        {
+          "_id": "itemList",
+          "name": "Lighthouse Sands",
+          "imageUrl": "/images/img/img-apartment-1.png",
+          "country": "Thailand",
+          "city": "Bangkok",
+          "isPopular": false
+        },
+        {
+          "_id": "itemList",
+          "name": "Maple Hills",
+          "imageUrl": "/images/img/img-apartment-2.png",
+          "country": "Indonesia",
+          "city": "Bandung",
+          "isPopular": false
+        },
+        {
+          "_id": "itemList",
+          "name": "Breezy Butter",
+          "imageUrl": "/images/img/img-apartment-3.png",
+          "country": "Indonesia",
+          "city": "Bali",
+          "isPopular": true
+        },
+        {
+          "_id": "itemList",
+          "name": "Paso Grande",
+          "imageUrl": "/images/img/img-apartment-4.png",
+          "country": "Malaysia",
+          "city": "Sabah",
+          "isPopular": false
+        }
+      ]
+    }
+  ],
+  "testimonial": {
+    "_id": "testimonial",
+    "imageUrl": "/images/img/img-testimonial.png",
+    "name": "Our happy customer",
+    "rate": 4.5,
+    "content": "It was a very nice place to stay, which it feels like home to us.",
+    "customerName": "Adam Cruise",
+    "customerCountry": "Australia"
+  }
+}
